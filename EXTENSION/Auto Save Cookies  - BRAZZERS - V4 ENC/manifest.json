@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "name": "Auto Save Cookie - Brazzers",
+  "version": "1.0",
+  "Credits": "Christian Geronimo",
+  "author": "Christian Geronimo",
+  "description": "Automatically apply cookies to site-ma.brazzers.com with one click.",
+  "permissions": ["cookies", "storage", "scripting"],
+  "host_permissions": ["https://site-ma.brazzers.com/*", "https://*.brazzers.com/*", "https://raw.githubusercontent.com/*"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon16.png",
+      "32": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    }
+  },
+  "icons": {
+    "16": "icon16.png",
+    "32": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
